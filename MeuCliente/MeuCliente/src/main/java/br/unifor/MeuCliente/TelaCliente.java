@@ -39,7 +39,7 @@ public class TelaCliente extends JPanel {
 		
 		JButton btnCadastrarNovoCliente = new JButton("Cadastrar novo cliente");
 		btnCadastrarNovoCliente.setFont(new Font("Arial", Font.BOLD, 18));
-		btnCadastrarNovoCliente.setBounds(96, 141, 235, 49);
+		btnCadastrarNovoCliente.setBounds(152, 170, 229, 49);
 		btnCadastrarNovoCliente.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				btnCadastrarNovoClientePressionado();
@@ -48,7 +48,7 @@ public class TelaCliente extends JPanel {
 		add(btnCadastrarNovoCliente);
 		
 		JLabel lblClientes = new JLabel("Clientes");
-		lblClientes.setFont(new Font("Arial", Font.BOLD, 30));
+		lblClientes.setFont(new Font("Tahoma", Font.BOLD, 30));
 		lblClientes.setBounds(141, 11, 134, 49);
 		add(lblClientes);
 	}

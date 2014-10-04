@@ -58,18 +58,18 @@ public class TelaCadastrarCliente extends JPanel {
 		add(lblNome);
 		
 		textField = new JTextField();
-		textField.setBounds(77, 95, 349, 29);
+		textField.setBounds(171, 95, 255, 29);
 		add(textField);
 		textField.setColumns(10);
 		
 		textField_1 = new JTextField();
 		textField_1.setColumns(10);
-		textField_1.setBounds(77, 139, 349, 29);
+		textField_1.setBounds(171, 139, 255, 29);
 		add(textField_1);
 		
 		textField_2 = new JTextField();
 		textField_2.setColumns(10);
-		textField_2.setBounds(104, 177, 322, 29);
+		textField_2.setBounds(170, 177, 255, 29);
 		add(textField_2);
 		
 		textField_3 = new JTextField();

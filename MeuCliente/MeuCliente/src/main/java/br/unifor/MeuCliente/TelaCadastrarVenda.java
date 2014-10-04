@@ -37,7 +37,7 @@ public class TelaCadastrarVenda extends JPanel {
 		add(lblQuentidade);
 		
 		textField = new JTextField();
-		textField.setBounds(96, 82, 327, 27);
+		textField.setBounds(163, 82, 260, 27);
 		add(textField);
 		textField.setColumns(10);
 		
@@ -48,7 +48,7 @@ public class TelaCadastrarVenda extends JPanel {
 		
 		textField_2 = new JTextField();
 		textField_2.setColumns(10);
-		textField_2.setBounds(113, 187, 88, 27);
+		textField_2.setBounds(163, 187, 260, 27);
 		add(textField_2);
 
 	}

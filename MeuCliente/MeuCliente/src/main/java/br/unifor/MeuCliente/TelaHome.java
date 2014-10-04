@@ -41,7 +41,7 @@ public class TelaHome extends JPanel{
 				btnClientePressionado(); 
 			}
 		});
-		btnCliente.setBounds(49, 160, 107, 38);
+		btnCliente.setBounds(24, 182, 107, 38);
 		add(btnCliente);
 		
 		JButton btnVendas = new JButton("Vendas");
@@ -51,13 +51,18 @@ public class TelaHome extends JPanel{
 				btnVendasPressionado(); 
 			}
 		});
-		btnVendas.setBounds(239, 160, 107, 38);
+		btnVendas.setBounds(165, 182, 107, 38);
 		add(btnVendas);
 		
 		JLabel lblMyClient = new JLabel("Meu Cliente");
 		lblMyClient.setFont(new Font("Tahoma", Font.PLAIN, 30));
 		lblMyClient.setBounds(24, 11, 206, 104);
 		add(lblMyClient);
+		
+		JButton btnSair = new JButton("Sair");
+		btnSair.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+		btnSair.setBounds(307, 182, 107, 38);
+		add(btnSair);
 	}
 	
 	public void btnClientePressionado() {
